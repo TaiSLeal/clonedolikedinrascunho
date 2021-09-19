@@ -1,0 +1,402 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+   
+body{
+    background-color: #f3f2ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* CABEÇALHO */
+.linkedin img{
+   object-fit:contain;
+    height: 34px;
+    margin-right: 10px;
+    cursor: pointer;
+ }
+
+.header{
+    width: 100%;
+    position: sticky;
+    display: flex;
+    top: 0;
+    z-index:999;
+    justify-content: center;
+    border-bottom: 0.1px solid lightgray;
+    padding: 10px;
+    background-color: white;
+}
+
+.header__left{
+    display: flex;
+    margin-right: 35px;
+  
+}
+
+.header__right{
+    display: flex;
+    margin-left:50px ;
+  
+    
+}
+
+.header__search{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 15px;
+    width: 235px;
+    background-color: #eef3f7;
+  
+}
+
+.header__search input {
+    outline: none;
+    border: none;
+    background: none;
+}
+.header__search img{
+    width: 11px;
+    height: 11px;
+    left: 87px;
+    top: 25px;
+    margin-right: 10px;
+    }
+.headerOption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.headerOption:hover {
+   opacity: 0.9;
+    
+}
+.headerOption img:hover{
+    opacity: 1 ;
+}
+.headerOption h3{
+    font-size: 11px;
+    margin-top: 5px;
+    font-weight: normal;
+   font-family: Ropa Sans;
+   line-height: 11px;
+ 
+
+}
+
+.headerOption img{
+    height: 20px;
+    width: 20px;
+    
+}
+.imagemperfil1 h3{
+    font-size: 11px;
+    margin-top: 5px;
+    font-weight: normal;
+   font-family: Ropa Sans;
+   line-height: 11px;
+   opacity: 0.6;
+   margin-left: 2px;
+}
+
+.imagemperfil1{
+    cursor: pointer;
+}
+.imagemperfil1 h3:hover{
+    opacity: 0.9;
+}
+#img__perfil1 {
+   
+    height: 20px;
+    border-radius: 50%;
+     
+}
+
+.mandala{
+    width: 717px;
+    height: 135px;
+    left: 29px;
+    top:232px;
+   border:0,1px solid rgb(255, 240, 244);
+  background-image: url(https://media-exp1.licdn.com/dms/image/C4E16AQEDBku5EnT98Q/profile-displaybackgroundimage-shrink_200_800/0/1631211955659?e=1637193600&v=beta&t=RMh_W_wGiwTdL81UbIpWBe_8PpoIfIoLGR-jA7j1rtE);
+   margin: 50px;
+   margin-bottom: -50px;
+}
+
+
+
+.perfilprincipal{
+    
+    width: 717px;
+    height: 185px;
+    left: 29px;
+    top:0px;
+    border:0,1px solid rgb(255, 240, 244);
+    background-color: white;
+    margin: 50px;
+    
+    
+}
+
+
+#imagemperfil2{
+   width: 105px;
+    height: 105px;
+    border-radius: 50%;
+     border: 4px solid white; 
+     cursor: pointer;
+}
+
+.imagemperfil{
+    margin: 31.38px;
+    margin-top: 60px;
+    position: absolute;
+    
+}
+
+.botoes{
+    display: flex;
+    margin-top: -24px;
+    margin-left: 14px;
+  
+    
+    
+}
+
+.interesse button{
+    width: 180px;
+    height: 30px;
+    background:#0B65C2;
+    border-radius: 15pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 13px;
+    color:#FFF;
+    margin: 7px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.interesse button:hover{
+background-color: rgb(18, 50, 119);
+}
+
+
+.adicionar button{
+    width: 120px;
+    height: 30px;
+    background:white;
+    border-radius: 15pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 13px;
+    color:#666;
+    margin: 7px;
+    border: 1px solid #666;
+    margin-top: 15px;
+   cursor: pointer;
+    
+}
+.adicionar button:hover{
+background-color:rgb(228, 225, 225);
+border: 2px solid rgb(73, 71, 71);
+}
+.mais button{
+    width: 65px;
+    height: 30px;
+    background: white;
+    border-radius: 15pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 13px;
+    color: #666;
+    margin: 7px;
+    border: 1px solid #666;
+    margin-top: 15px;
+   cursor: pointer;
+}
+.mais button:hover{
+    background-color:rgb(228, 225, 225);
+    border: 2px solid rgb(73, 71, 71);
+}
+.nome h1{
+    
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 22px;
+    margin-right: 100px;
+    margin-top: 5px;
+    padding-bottom: 8px;
+    
+}
+  
+  
+
+.nome{
+    margin-top: 20px; 
+    }
+
+    .dados{
+       padding: 25px; 
+    }
+
+    .profissao h3{
+        font-weight: normal;
+        font-style: normal;
+        font-size: 18px;
+
+    }
+
+.local p{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+  padding-top:  5px; 
+    color: #666;
+  
+}
+
+.perfil{
+    display: ruby-base-container;
+}
+
+.bloco2{
+    width: 717px;
+    height: 350px;
+    left: 29px;
+    top:449px;
+    border:1px solid #EBEBEB;
+    background-color: white;
+    margin: 50px;
+    border-radius: 7px;
+}
+
+.experiencia{
+    display:flex;
+    cursor: pointer;
+}
+   #nomeexperiencia {
+      
+    padding-top: 16px;
+    padding-left: 21px;
+    width: 66px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+
+   } 
+    
+    
+
+.experiencia img{
+   margin-top: 30px;
+   margin-left: 24px;
+   width: 45px;
+  
+  
+}
+
+
+
+.experienciaescrito{
+    margin-top: 30px;
+    margin-left: 24px;
+   
+}
+   
+.experienciaescrito:hover{
+    text-decoration:underline #0B65C2;
+}
+.experienciaescrito h3{
+  
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+
+}
+
+.experienciaescrito h4{
+    
+   font-size: 16px;
+   font-style: normal;
+font-weight: normal;
+    
+}
+
+.experienciaescrito p{
+    font-size: 16px;
+    color: #666
+}
+
+
+.formaçaoacademica{
+    display:flex;
+    cursor: pointer;
+}
+
+.bloco22{
+    border-top:1px solid #EBEBEB;
+    margin-top: 30px;
+}
+
+.formaçaoacademica img{
+    margin-top: 30px;
+    margin-left: 24px;
+    width: 60px;
+}
+
+#nomeformaçaoacademica{
+
+    padding-top: 16px;
+    padding-left: 21px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.formaçaoacademicaescrito{
+    margin-top: 30px;
+    margin-left: 10px;
+    }
+
+.formaçaoacademicaescrito:hover{
+text-decoration: underline #0B65C2;
+}
+
+
+.formaçaoacademicaescrito h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.formaçaoacademicaescrito h4{
+    font-size: 16px;
+    font-style: normal;
+ font-weight: normal;
+}
+.formaçaoacademicaescrito p{
+    font-size: 16px;
+    color: #666
+}
